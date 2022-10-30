@@ -1,0 +1,53 @@
+@media screen and (max-width: 900px) {
+
+.title {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
+.header {
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+.container img{
+    display: block;
+    width: auto;
+    margin-top: 9px;
+}
+    
+}
+
+@media screen and (min-width: 901px) {
+
+    .title {
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 20px;
+    }
+    
+    .header {
+        font-weight: lighter;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 20px;
+    }
+    
+    .container img{
+        width: 400px;
+        height: auto;
+    }
+        
+    }

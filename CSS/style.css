@@ -1,0 +1,168 @@
+@media screen and (max-width: 900px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header{ 
+    min-height:100px; background:grey;
+    width: auto;
+    display: flex;
+    margin: 5px;
+}
+
+.main-title {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: grey;
+    font-size: 30px;
+}
+
+a {
+    margin-right: auto;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*Footer*/
+footer{ 
+    min-height:50px; background:grey; 
+    width: auto;
+}
+
+.bloc {
+    background-color: grey;
+    width: auto;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vide {
+    width: 20%;
+}
+
+
+.menu-langues {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+}
+
+@media screen and (min-width: 901px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /*Header*/
+    header{ 
+        min-height:100px; background:grey;
+        width: auto;
+        margin: 5px;
+    }
+    
+    .main-title {
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: grey;
+        font-size: 30px;
+    }
+    
+    a {
+        margin-right: auto;
+        display: flex;
+        font-size: 20px;
+        justify-content: space-evenly;
+        width: auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    /*Footer*/
+    footer{ 
+        min-height:50px; background:grey; 
+        width: auto;
+    }
+    
+    .bloc {
+        background-color: grey;
+        width: auto;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .vide {
+        width: 20%;
+    }
+    
+    
+    .menu-langues {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: auto;
+    }
+    
+    img {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .selector-for-some-widget {
+        box-sizing: content-box;
+      }
+    }

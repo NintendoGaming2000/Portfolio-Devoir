@@ -1,0 +1,41 @@
+/*Main*/
+@media screen and (max-width: 900px) {
+    
+.title {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
+.header {
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
+}
+
+/*Main*/
+@media screen and (min-width: 901px) {
+    
+    .title {
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 20px;
+    }
+    
+    .header {
+        font-weight: lighter;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 20px;
+    }
+    
+    }
